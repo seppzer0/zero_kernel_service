@@ -1,0 +1,15 @@
+run:
+  tests: false
+output:
+  format: "checkstyle:lint_report.json,colored-line-number"
+linters:
+  enable:
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - typecheck
+    - unused
+    - cyclop
+    - gofmt
+    - lll
