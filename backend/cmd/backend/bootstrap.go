@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"s0nh-server/internal/infrastructure"
-	"s0nh-server/pkg/server"
+	"zero-kernel-service/internal/infrastructure"
+	"zero-kernel-service/pkg/server"
 
 	"go.uber.org/fx"
 )

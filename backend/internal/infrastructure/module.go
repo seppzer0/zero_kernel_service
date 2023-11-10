@@ -1,7 +1,7 @@
 package infrastructure
 
 import (
-	"s0nh-server/internal/infrastructure/config"
+	"zero-kernel-service/internal/infrastructure/config"
 
 	"go.uber.org/fx"
 )

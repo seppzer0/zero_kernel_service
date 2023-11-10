@@ -1,2 +1,7 @@
 server:
   listenAddress: :8080
+worker:
+  location: Europe/Amsterdam
+  concurrency: 5
+deviceList:
+  codenames: dumpling, cheeseburger

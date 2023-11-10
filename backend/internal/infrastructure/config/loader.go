@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/viper"
 )
 
-// Load - load configuration from config files and env variables
+// Load -- load configuration from config files and env variables
 func Load() (Config, error) {
 	viper.SetConfigName("config")
 	viper.SetConfigType("yaml")
@@ -30,7 +30,7 @@ func Load() (Config, error) {
 	return cfg, viper.Unmarshal(&cfg)
 }
 
-// LaunchLoad - launch the config loading process
+// LaunchLoad -- launch the config loading process
 func LaunchLoad() Config {
 	cfg, err := Load()
 	if err != nil {

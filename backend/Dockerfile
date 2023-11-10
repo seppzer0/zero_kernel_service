@@ -19,11 +19,12 @@ RUN go mod download && golangci-lint run --timeout 5m
 FROM base as build
 WORKDIR /build
 COPY --from=linter /src/lint_report.json .
-RUN go test ./... && go build -o /build/s0nh-server ./cmd/backend
+RUN go test ./... && go build -o /build/zero-kernel-service ./cmd/backend
 
 # build final image
 FROM alpine:3.18
 WORKDIR /app
-COPY --from=build /build/s0nh-server ./s0nh-server
+COPY --from=build /build/zero-kernel-service ./zero-kernel-service
 COPY config.yaml ./
-CMD ["/app/s0nh-server"]
+
+CMD ["/app/zero-kernel-service"]

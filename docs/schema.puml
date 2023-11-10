@@ -1,0 +1,8 @@
+@startuml schema
+
+[ROM version\nchecker]
+[Kernel build\nchecker]
+[Kernel-to-ROM\nlinker]
+[Internal\nDB]
+
+@enduml
