@@ -14,7 +14,7 @@
 
 The project has a number of different types of dependencies: ROM builds, kernel source, KernelSU distributions, RTL8812AU driver updates etc.
 
-The purpose of this service is to track all of such dependencies and take the appropriate actions in an event of an update, whether it's triggering a pipeline or a sending a notification.
+The purpose of this service is to track all of such dependencies and take the appropriate actions in an event of an update, whether it's triggering a pipeline or sending a notification.
 
 Currently, this service is <u>in development</u>.
 
