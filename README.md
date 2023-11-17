@@ -1,7 +1,9 @@
-# zero_kernel_service — an update tracking service for the zero_kernel
+# zero_kernel_service
+
+An update tracking service for the zero_kernel.
 
 ## Contents
-- [zero\_kernel\_service — an update tracking service for the zero\_kernel](#zero_kernel_service--an-update-tracking-service-for-the-zero_kernel)
+- [zero\_kernel\_service](#zero_kernel_service)
   - [Contents](#contents)
   - [zero\_kernel](#zero_kernel)
   - [Usage](#usage)
@@ -16,7 +18,7 @@ The project has a number of different types of dependencies: ROM builds, kernel 
 
 The purpose of this service is to track all of such dependencies and take the appropriate actions in an event of an update, whether it's triggering a pipeline or sending a notification.
 
-Currently, this service is <u>in development</u>.
+Currently, this service is in development.
 
 ## Usage
 
